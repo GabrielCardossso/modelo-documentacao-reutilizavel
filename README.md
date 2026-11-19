@@ -1,6 +1,6 @@
-# 📄 Modelo de Documentação Técnica
+<img src="./.github/readme/header.svg" width="100%" alt="modelo-documentacao-reutilizavel: Projeto Integrador · SENAC" />
 
-Modelo reutilizável para documentar projetos de software, pensado para o **Projeto Integrador (PI)** do curso Técnico em Desenvolvimento de Sistemas do SENAC.
+<img src="./.github/readme/sobre.svg" width="100%" alt="Sobre o projeto: Modelo reutilizável de documentação técnica de software, pensado para o Projeto Integrador do SENAC: registra o suficiente para outra equipe entender o sistema, a arquitetura, as regras e como executá-lo." />
 
 A ideia não é documentar cada linha de código, e sim registrar o suficiente para que outra equipe consiga entender o sistema, sua arquitetura, suas principais regras e como executá-lo.
 
