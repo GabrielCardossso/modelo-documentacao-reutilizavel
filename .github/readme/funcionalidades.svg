@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="608" viewBox="0 0 1200 608" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+<title id="title">Funcionalidades de modelo-documentacao-reutilizavel</title>
+<desc id="desc">Capa e histórico: Nome do projeto, equipe, versão, data, repositório e histórico de alterações. · Visão geral e escopo: Seções 1–2: problema, objetivo, perfis de usuário e principais funcionalidades. · Tecnologias e arquitetura: Seções 3–4: tabela com versão e finalidade de cada tecnologia e diagrama de arquitetura. · Estrutura e classes: Seções 5–6: pastas e suas responsabilidades, e o diagrama de classes UML. · Código, dados e APIs: Seções 7–10: componentes, métodos relevantes, banco de dados e endpoints. · Regras e segurança: Seções 11–13: regras de negócio, autenticação e permissões, e tratamento de erros. · Testes e execução: Seções 14–15: estratégia de testes, pré-requisitos, instalação e como executar. · Limites e evolução: Seções 16–18: débitos técnicos, próximas evoluções e glossário técnico.</desc>
+<style>
+.mono{font-family:'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace}
+text{shape-rendering:auto}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#ffffff" opacity=".06"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".22"/></pattern>
+<clipPath id="card"><rect width="1200" height="608" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="608" fill="#191817"/>
+<rect width="1200" height="608" fill="url(#grid)"/>
+<rect width="1200" height="40" fill="#262422"/>
+<rect y="40" width="1200" height="1" fill="#3a3733"/>
+<rect x="20" y="14" width="12" height="12" fill="#e5534b"/>
+<rect x="40" y="14" width="12" height="12" fill="#e0a43b"/>
+<rect x="60" y="14" width="12" height="12" fill="#5fb85f"/>
+<text x="600" y="25" text-anchor="middle" class="mono" font-size="14" fill="#86817a">funcionalidades.md</text>
+<rect x="48" y="78" width="10" height="10" fill="#d97757"/>
+<text x="70" y="88" class="mono" font-size="18" font-weight="700" fill="#ece9e4">Funcionalidades</text>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.952;1" dur="0.2s" fill="freeze"/>
+<rect x="48.5" y="116.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="68" y="138" width="8" height="8" fill="#d97757"/>
+<text x="86" y="147" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Capa e histórico</text>
+<text x="68" y="174" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Nome do projeto, equipe, versão, data, repositório e</text>
+<text x="68" y="196" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve"><tspan font-weight="700" fill="#ece9e4">histórico</tspan><tspan font-weight="700" fill="#ece9e4"> de</tspan><tspan font-weight="700" fill="#ece9e4"> alterações</tspan>.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.968;1" dur="0.3s" fill="freeze"/>
+<rect x="624.5" y="116.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="644" y="138" width="8" height="8" fill="#d97757"/>
+<text x="662" y="147" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Visão geral e escopo</text>
+<text x="644" y="174" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 1–2: problema, objetivo,<tspan font-weight="700" fill="#ece9e4"> perfis</tspan><tspan font-weight="700" fill="#ece9e4"> de</tspan><tspan font-weight="700" fill="#ece9e4"> usuário</tspan> e</text>
+<text x="644" y="196" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">principais funcionalidades.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.976;1" dur="0.4s" fill="freeze"/>
+<rect x="48.5" y="234.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="68" y="256" width="8" height="8" fill="#d97757"/>
+<text x="86" y="265" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Tecnologias e arquitetura</text>
+<text x="68" y="292" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 3–4: tabela com versão e finalidade de cada</text>
+<text x="68" y="314" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">tecnologia e<tspan font-weight="700" fill="#ece9e4"> diagrama</tspan><tspan font-weight="700" fill="#ece9e4"> de</tspan><tspan font-weight="700" fill="#ece9e4"> arquitetura</tspan>.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.984;1" dur="0.6s" fill="freeze"/>
+<rect x="624.5" y="234.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="644" y="256" width="8" height="8" fill="#d97757"/>
+<text x="662" y="265" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Estrutura e classes</text>
+<text x="644" y="292" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 5–6: pastas e suas responsabilidades, e o<tspan font-weight="700" fill="#ece9e4"> diagrama</tspan></text>
+<text x="644" y="314" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve"><tspan font-weight="700" fill="#ece9e4">de</tspan><tspan font-weight="700" fill="#ece9e4"> classes</tspan><tspan font-weight="700" fill="#ece9e4"> UML</tspan>.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.986;1" dur="0.7s" fill="freeze"/>
+<rect x="48.5" y="352.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="68" y="374" width="8" height="8" fill="#d97757"/>
+<text x="86" y="383" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Código, dados e APIs</text>
+<text x="68" y="410" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 7–10: componentes, métodos relevantes,<tspan font-weight="700" fill="#ece9e4"> banco</tspan><tspan font-weight="700" fill="#ece9e4"> de</tspan></text>
+<text x="68" y="432" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve"><tspan font-weight="700" fill="#ece9e4">dados</tspan> e endpoints.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.988;1" dur="0.8s" fill="freeze"/>
+<rect x="624.5" y="352.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="644" y="374" width="8" height="8" fill="#d97757"/>
+<text x="662" y="383" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Regras e segurança</text>
+<text x="644" y="410" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 11–13:<tspan font-weight="700" fill="#ece9e4"> regras</tspan><tspan font-weight="700" fill="#ece9e4"> de</tspan><tspan font-weight="700" fill="#ece9e4"> negócio</tspan>, autenticação e</text>
+<text x="644" y="432" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">permissões, e tratamento de erros.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.989;1" dur="0.9s" fill="freeze"/>
+<rect x="48.5" y="470.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="68" y="492" width="8" height="8" fill="#d97757"/>
+<text x="86" y="501" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Testes e execução</text>
+<text x="68" y="528" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 14–15: estratégia de testes, pré-requisitos,</text>
+<text x="68" y="550" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">instalação e<tspan font-weight="700" fill="#ece9e4"> como</tspan><tspan font-weight="700" fill="#ece9e4"> executar</tspan>.</text>
+</g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.990;1" dur="1s" fill="freeze"/>
+<rect x="624.5" y="470.5" width="528" height="102" rx="6" fill="#121110" stroke="#3a3733"/>
+<rect x="644" y="492" width="8" height="8" fill="#d97757"/>
+<text x="662" y="501" class="mono" font-size="16" font-weight="700" fill="#ece9e4">Limites e evolução</text>
+<text x="644" y="528" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">Seções 16–18:<tspan font-weight="700" fill="#ece9e4"> débitos</tspan><tspan font-weight="700" fill="#ece9e4"> técnicos</tspan>, próximas evoluções e</text>
+<text x="644" y="550" class="mono" font-size="14" fill="#b7b2aa" xml:space="preserve">glossário técnico.</text>
+</g>
+<rect width="1200" height="608" fill="url(#scan)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="607" rx="9.5" fill="none" stroke="#3a3733"/>
+</svg>
